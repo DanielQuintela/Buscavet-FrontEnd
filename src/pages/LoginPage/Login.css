@@ -1,0 +1,85 @@
+body {
+    background-image:  url("https://data.1freewallpapers.com/download/gradient-green-texture-background.jpg");
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-logo {
+    margin-bottom: 40px;
+    margin-top: -69px;
+    margin-right: 20px; /* Espaçamento entre a logo e a caixa de login */
+
+  }
+  
+  .side-bar {
+    border: 2px solid #58AF9B;
+    width: 240px; /* Largura da barra lateral */
+    background-color: #58AF9B; /* Cor de fundo */
+    height: 55%; /* Altura total da barra lateral */
+    position: relative; /* Posição fixa */
+    box-shadow: 0px 4px 5px rgba(44, 2, 2, 0.6);
+    border-radius: 25px;
+  }
+  /* .side:hover {
+    background-color: #58AF9B;
+    transform: scale(1.05);
+} */
+  
+  
+
+  .login-logo img {
+    width: 325px; /* Largura da logo */
+    height: 100px; /* Altura da logo */
+    left: 35px; /* Posição horizontal da logo */
+    top: 0; /* Posição vertical da logo */
+  }
+  
+  .login-box {
+    border: 1px solid #ccc;
+    padding: 87px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 0 25px 25px 0;
+    box-shadow: 5px 4px 5px rgba(44, 2, 2, 0.6);
+    width: 300px;
+    margin: -16px;
+
+  
+  }
+  
+  .login-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: block;
+  }
+ 
+  .login-box button {
+    background-color: #35A29F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.login-box button:hover {
+    background-color: #58AF9B;
+    transform: scale(1.05);
+}
+
+.login-box button:active {
+    transform: scale(0.95);
+}
